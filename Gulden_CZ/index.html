@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=1280">
+<meta name="format-detection" content="telephone=no" />  
+<title>Gulden</title>
+
+<!-- SET: FAVICON -->
+<link rel="shortcut icon"  href="images/favicon.ico">
+<!-- END: FAVICON -->
+
+<!-- SET: STYLESHEET -->
+<link href="css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	
+</head>
+<body>
+
+    <!-- SET: WRAPPER -->
+<div class="wrapper">	
+    
+    <!--HEADER-->
+    <header class="header"> 
+     <div class="header_top">
+        <div class="container clearfix">
+             <div class="row">
+                <ul class="clearfix">
+                  <li>
+                      <span>ZLATO 1249,3 USD/oz</span>
+                      <span class="col_red">
+                          <img src="images/dn_arrow.png" alt="">(0,06 $)
+                          <span class="glyphicon glyphicon-triangle-bottom"> </span>
+                      </span>
+                  </li>
+                      
+                 <li>
+                      <span>STŘÍBRO 16,39 USD/oz</span>
+                      <span class="col_green">
+                          <img src="images/up_arrow.png" alt="">(0,54 $)
+                          <span class="glyphicon glyphicon-triangle-bottom"></span>
+                     </span>
+                  </li>
+                     
+                 <li><span>1 USD = 20,53 Kč</span></li>
+                 <li><span>1 USD = 25,61 Kč</span></li> 
+                 <li><span class="lan active"><img src="images/flag1.jpg" alt=""></span>
+                     <span class="lan"><img src="images/flag2.jpg" alt=""></span>
+                 </li>
+                 <li>
+                     <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">
+                        <span>CZK</span><span class="glyphicon glyphicon-triangle-bottom"> </span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CZK1</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CZK2</a></li>    
+                        </ul>
+                      </div>
+                </li>
+                </ul>
+             </div>
+        </div>
+     </div>
+        
+     <div class="main_head">    
+       <div class="header_mid">
+        <div class="container clearfix">
+             <div class="row align-items-center">
+                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 logo">
+                   <a href="#"><img src="images/logo.png" alt="logo"></a> 
+                </div>
+                   
+                  <div class="col-lg-7 col-md-7 col-sm-12">
+                     <ul class="md_link">
+                       <li>
+                        <a href="tel:800010203"><img src="images/call.png" alt="">800 01 02 03</a>
+                       </li>
+                       
+                        <li>
+                        <a href="telmailto:info@gulden.cz">
+                            <img src="images/mail.png" alt="">info@gulden.cz</a>
+                        </li>
+                         
+                       <li>
+                        <a href="#"><img src="images/icon.png" alt="">Naše prodejny</a>
+                       </li>
+                      </ul> 
+                      
+                    <div class="input-group search">
+                     <input type="hidden" name="search_param" value="all" id="search_param">                              <input type="text" class="form-control" name="x" placeholder="Hledat...">
+
+                   <div class="input-group-btn search-panel">
+                   <button type="button" class="btn opt dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                      <span id="search_concept">Všechny kategorie</span> 
+                       <span class="glyphicon glyphicon-triangle-bottom"> </span>
+                  </button>
+                   <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Všechny kategorie</a></li>
+                      <li><a href="#">Všechny kategorie</a></li>
+                   </ul>
+                  </div> 
+                        
+                    <span class="input-group-btn">
+                        <button class="btn srch_btn" type="button">
+                            <img src="images/search.png" alt="">
+                        </button>
+                    </span>
+                  </div>
+               </div>
+               
+           
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                   <ul class="rg_link">
+                        <li><a href="#"><img src="images/heart.png" alt="">Oblíbené</a></li>
+                        <li><a href="#"><img src="images/profile.png" alt="">Přihlásit se</a></li>
+                        <li><a href="#"><img src="images/cart.png" alt="">Košík</a></li>
+                   </ul>
+                </div>
+           
+               </div>
+            </div>
+        </div>
+       <div class="header_bot">
+            <div class="container clearfix">
+               <div class="row">
+                    <div class="nav_bg">
+                       <div class="nav-icon"><span></span><span></span><span></span></div>                                        <nav>
+                                <ul class="clearfix">
+                                    <li><a href="#">E-shop</a></li>
+                                    <li><a href="#">Investice </a>
+                                    <li><a href="#">Zabezpečení</a></li>  
+                                    <li><a href="#">Online rádce</a></li> 
+                                    <li><a href="#">Vše o výkupu</a></li>  
+                                    <li><a href="#">Kontakty</a></li>  
+                                  </ul>
+                             </nav>
+					     </div> 
+                 
+                   </div>
+                 </div>
+              </div>
+    </div>
+    </header>
+    <!--END HEADER-->
+    
+  <!-- Main_content -->
+       <div class="main_content"> 
+        <div class="wrap_c ">
+           <div class="banner_sec">
+             <div class="slider">
+                  <div><img src="images/slide1.jpg" alt="" /></div>
+                  <div><img src="images/slide2.jpg" alt="" /></div>
+                  <div><img src="images/slide3.jpg" alt="" /></div>
+              </div>
+            </div>
+           
+           <div class="coin_details">
+               <div class="container clearfix">
+                 <div class="row">
+                      <ul class="clearfix">
+                         <li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <div class="coin clearfix">
+                                  <div class="col-md-8">
+                                   <h2>INVESTIČNÍ ZLATO</h2>
+                                      <ul>
+                                          <li><a href="#">Zlaté mince</a></li>
+                                          <li><a href="#">Zlaté slitky a cihly</a></li>
+                                          <li><a href="#">Zlaté novoražby</a></li>
+                                          <li><a href="#">Zlaté medaile</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-md-4 pad_l">
+                                   <span><a href="#">Au</a>1249,9 USD/oz 
+                                          <img src="images/dn_arrow.png" alt=""></span>
+                                      <figure>
+                                       <img src="images/box1.png" alt="">
+                                      </figure>
+                                  </div>
+                              </div>
+                          </li>
+                          
+                          <li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="coin invest clearfix">
+                                 <div class="col-md-8 padleft">
+                                   <h2>INVESTIČNÍ STŘÍBRO</h2>
+                                      <ul>
+                                          <li><a href="#">Stříbrné mince</a></li>
+                                          <li><a href="#">Stříbrné slitky a cihly</a></li>
+                                          <li><a href="#">Stříbrné novoražby</a></li>
+                                          <li><a href="#">Stříbrné medaile</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-md-4 pad_l">
+                                      <span><a href="#">Au</a>16,39 USD/oz
+                                          <img src="images/up_arrow.png" alt=""></span>
+                                      <figure>
+                                       <img src="images/box2.png" alt="">
+                                      </figure>
+                                  </div>
+                            </div>
+                           </li>
+                          
+                          <li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="coin pro clearfix">
+                                 <div class="col-md-12">
+                                   <h2>PRO SBĚRATELE</h2>
+                                     <ul>
+                                          <li><a href="#">Mince České národní banky</a></li>
+                                          <li><a href="#">Světové mince a euromince</a></li>
+                                          <li><a href="#">Historické mince a bankovky</a></li>
+                                          <li><a href="#">Zajímavosti</a></li>
+                                          <li><a href="#">Tipy na dárky</a></li>
+                                      </ul>
+                                      <figure><img src="images/box3.png" alt="">  </figure>
+                                  </div>
+                             </div>
+                          </li>
+                          <li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="coin prislu clearfix">
+                                 <div class="col-md-12 padleft">
+                                   <h2>PŘÍSLUŠENSTVÍ</h2>
+                                     <ul>
+                                          <li><a href="#">Sběratelské potøeby</a></li>
+                                          <li><a href="#">Péče o mince a cihly</a></li>
+                                          <li><a href="#">Trezory a zabezpečení</a></li>
+                                          <li><a href="#">Spektrometry a detektory</a></li>
+                                          <li><a href="#">Literatura a tisk</a></li>
+                                      </ul>
+                                    <figure>  <img src="images/box4.png" alt="">  </figure>
+                                  </div>
+                              </div>
+                          </li>
+                          
+                          <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="coin hght100 clearfix"><img src="images/slide1.jpg" /></div>
+                          </li>
+                      </ul>
+                 </div>
+                   
+               </div>
+           </div>
+           
+           <div class="tab_slider">
+             <div class="container">
+                 <div class="row">
+                       <ul class="tabs">
+                            <li class="active" rel="tab1">Nejnovější výrobky</li>
+                            <li rel="tab2">Investiční příležitosti</li>
+                           	<li rel="tab3">Oblíbené dárky</li>
+                        </ul>
+
+                 <div class="tab_container">
+                    <div class="komp2 komp-slider">
+                       <h3 class="tab_drawer_heading" rel="tab1">New Titles</h3>
+                        <div id="tab1" class="tab_content">
+                            <div class="referans">
+                                     <div class="col-md-4 komp-item">
+                                         <div class="item">
+                                         <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                           <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                           </div>
+                                         </div>
+                                     </div>
+                                        
+                                    <div class="col-md-4 komp-item">
+                                      <div class="item">
+                                       <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                    </div> 
+                                        
+                                 <div class="col-md-4 komp-item">
+                                    <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                  </div> 
+                                        
+                                <div class="col-md-4 komp-item">
+                                     <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                 </div>
+                                
+                                <div class="col-md-4 komp-item">
+                                     <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                 </div>
+                            </div>
+                         </div>
+                           
+                       <h3 class="tab_drawer_heading d_active" rel="tab2">Upcoming Titles</h3>
+                       <div id="tab2" class="tab_content">
+                            <div class="referans">
+                                <div class="col-md-4 komp-item">
+                                         <div class="item">
+                                         <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                           <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                           </div>
+                                         </div>
+                                     </div>
+                                        
+                                <div class="col-md-4 komp-item">
+                                      <div class="item">
+                                       <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                    </div> 
+                                        
+                                <div class="col-md-4 komp-item">
+                                    <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                  </div> 
+                                        
+                                <div class="col-md-4 komp-item">
+                                     <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                 </div>
+                                
+                                <div class="col-md-4 komp-item">
+                                     <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                 </div>
+                         
+                            </div>
+                       
+                       </div>
+                                
+                       <h3 class="tab_drawer_heading" rel="tab3">New Titles</h3>
+                       <div id="tab3" class="tab_content">
+                            <div class="referans">
+                                     <div class="col-md-4 komp-item">
+                                         <div class="item">
+                                         <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                           <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                           </div>
+                                         </div>
+                                     </div>
+                                        
+                                    <div class="col-md-4 komp-item">
+                                      <div class="item">
+                                       <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                    </div> 
+                                        
+                                 <div class="col-md-4 komp-item">
+                                    <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                  </div> 
+                                
+                                <div class="col-md-4 komp-item">
+                                    <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                  </div>
+                                        
+                                <div class="col-md-4 komp-item">
+                                     <div class="item">
+                                      <img src="images/coin.png" alt="">
+                                         <h4>Velká Británie. 22 € 2018. Britannia. 1 oz.</h4>
+                                         <h3>402 Kč</h3>
+                                         <p>nejnižší cena</p>
+                                         <div class="add_cart">
+                                           <span class="no_of_product"><input type="number" placeholder="1"></span>
+                                           <a href="#" class="add_btn">Přidat do košíku </a>
+                                         </div>
+                                      </div>
+                                 </div>
+                            </div>
+                        
+                      </div>
+                           
+                     </div>
+                 </div>
+               <!-- .tab_container -->
+             </div>
+           </div>
+         </div> 
+            
+           <div class="plan_table">
+            <div class="container">
+            <div class="row">
+                <ul class="tabs">
+                   <li class="active" rel="plan1">Emisní plán ČNB</li>
+                   <li rel="plan2">Aktuální zprávy</li>
+                   <li rel="plan3">Vývoj cen drahých kovů</li>
+                </ul>
+                
+                <div class="tab_container">
+                    <h3 class="tab_drawer_heading d_active" rel="plan1">Upcoming Titles</h3>
+                    <div id="plan1" class="tab_content">
+                   	<table id="example" class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                        <th width="53">Rok</th>
+                        <th width="114">Nominál</th>
+                        <th width="438">Název</th>
+                        <th width="114">Cena</th>
+                        <th width="113">Datum emise</th>
+                        <th width="159">Dostupnost</th>
+                        <th width="159">Objednat / rezervovat</th>
+                        </tr>
+                        </thead>
+                        
+                        <tbody>
+                        <tr>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td><span class="green_dot"></span>text</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="red_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="org_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="green_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="red_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">POPTAT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="org_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">OBJEDNAT</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                  </div>                    
+                  <h3 class="tab_drawer_heading d_active" rel="plan2">Upcoming Titles</h3>
+                  <div id="plan2" class="tab_content">
+                  	<table id="example1" class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                        <th width="53">Rok</th>
+                        <th width="114">Nominál</th>
+                        <th width="438">Název</th>
+                        <th width="114">Cena</th>
+                        <th width="113">Datum emise</th>
+                        <th width="159">Dostupnost</th>
+                        <th width="159">Objednat / rezervovat</th>
+                        </tr>
+                        </thead>
+                        
+                        <tbody>
+                        <tr>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td><span class="green_dot"></span>text</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="red_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="org_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="green_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="red_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">POPTAT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="org_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">OBJEDNAT</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </div>                    
+                    <h3 class="tab_drawer_heading d_active" rel="plan3">Upcoming Titles</h3>
+                    <div id="plan3" class="tab_content">
+                        <table id="example2" class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                        <th width="53">Rok</th>
+                        <th width="114">Nominál</th>
+                        <th width="438">Název</th>
+                        <th width="114">Cena</th>
+                        <th width="113">Datum emise</th>
+                        <th width="159">Dostupnost</th>
+                        <th width="159">Objednat / rezervovat</th>
+                        </tr>
+                        </thead>
+                        
+                        <tbody>
+                        <tr>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td><span class="green_dot"></span>text</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="red_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="org_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="green_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">KOUPIT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="red_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">POPTAT</a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><span class="org_dot"></span>&nbsp;</td>
+                        <td><a class="dn" href="#">OBJEDNAT</a></td>
+                        </tr>
+                        </tbody>
+                    </table>  
+                      </div>
+                </div>
+            </div>
+        </div>
+       </div>            
+       <div class="client_logo">
+             <div class="container clearfix">
+                 <div class="logo_slider">
+                      <div><img src="images/logo1.png" alt=""></div>
+                      <div><img src="images/logo2.png" alt=""></div>
+                      <div><img src="images/logo3.png" alt=""></div>
+                      <div><img src="images/logo4.png" alt=""></div>
+                      <div><img src="images/logo5.png" alt=""></div>
+                      <div><img src="images/logo6.png" alt=""></div>
+                      <div><img src="images/logo7.png" alt=""></div>
+                      <div><img src="images/logo8.png" alt=""></div>
+                      <div><img src="images/logo9.png" alt=""></div>
+                 </div>
+             </div>
+         </div>
+       </div>
+     </div>
+  <!-- end Main_content -->
+  <!-- SET: FOOTER -->
+    <footer class="footer">
+		<div class="container clearfix">
+        	<div class="ftop">
+				<div class="row">
+				   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					   <a href="#" class="flogo"><img src="images/ft_logo.png" alt=""></a>
+				   </div>
+				   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				   <h3><b>Smluvní partner</b></h3>
+					   <img src="images/ccnb.png" alt="">
+				  </div>
+				</div>
+			</div>          
+           	<div class="fmid">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<div class="midtext pad_l">
+							<h3>MŮJ ÚČET</h3>
+							<ul>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							</ul>
+						</div>
+				  	</div>
+				  	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<div class="midtext">
+							<h3>VŠE O NÁKUPU</h3>
+							<ul>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+						   </ul>
+						</div>
+				  	</div>
+				  	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<div class="midtext pad_20">
+							<h3>INFORMACE</h3>
+							<ul>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							   <li><a href="#">link here</a></li>
+							</ul>
+						</div>
+				  	</div>
+				  	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+					  	<div class="midtext pad_30">
+							<h3>NOVINKY A AKCE</h3>
+							<p>Chcete být informováni o<br> cenových akcích jako první ?</p>
+							<form>
+								<input type="email" placeholder="email" required />
+								<input type="submit" value="text here">
+							</form>
+						</div>
+				  	</div>
+				</div>
+			</div>          
+           	<div class="fbtm">
+				<div class="row">
+				   	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+					 	<div class="midtext social">
+					   		<h4>Jsme také na sociálních sítích:</h4>
+							<ul class="social-media">
+								<li><a href="#" target="_blank"><img src="images/twiter.png" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="images/facebook.png" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="images/google_plus.png" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="images/pinterest.png" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="images/linkedin.png" alt=""></a></li>
+							</ul>
+					   	</div>
+				   	</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<div class="midtext platby">
+							<h4>Způsob platby:</h4>
+							<ul class="payment clearfix">
+								<li><a href="#" target="_blank"><img src="images/visa.png" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="images/m_cart.png" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="images/Paypal-logo.jpg" alt=""></a></li>
+							</ul>
+						</div>				  	
+					</div>
+				   	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+						<div class="midtext caska">
+							<h4>Přepravci:</h4>
+					   		<img src="images/gvdg.png" alt="">
+						</div>
+				   	</div>
+				   	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+						<div class="midtext ssl">
+							<h4>Zabezpečení dat:</h4>
+					   		<img src="images/ssl.png" alt="">
+						</div>
+				   	</div>
+				   	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+						<div class="midtext partner">
+							<h4>Hlavní partner:</h4>
+					   		<img src="images/partener.png" alt="">
+						</div>
+				   	</div>
+				   <div class="col-md-12 txt-cnt"><p>Copyright© 2018 Gulden.cz</p></div>
+				</div>
+			</div>
+      	</div>
+   </footer>
+  <!-- End : FOOTER -->    
+
+      
+    </div>
+ <!-- End Wrapper -->  
+
+     <script src="js/jquery-1.10.1.min.js"></script> 
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/slick.min.js"></script>  
+     <script src="js/jquery.matchHeight-min.js"></script>
+     <script src="js/jquery.dataTables.min.js"></script>
+     <script src="js/custom.js"></script>
+</body>
+</html>

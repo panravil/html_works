@@ -1,0 +1,169 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;vertical-align:baseline;background:transparent}
+body{line-height:1}
+h1,h2,h3,h4,h5,h6{font-weight:400;clear:both}
+ol,ul{list-style:none}
+blockquote{quotes:none}
+blockquote:before,blockquote:after{content:'';content:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+a img{border:none;}
+h3#comments-title,h3#reply-title,#access .menu,#access div.menu ul,#cancel-comment-reply-link,.form-allowed-tags,#site-info,#site-title,#wp-calendar,.comment-meta,.comment-body tr th,.comment-body thead th,.entry-content label,.entry-content tr th,.entry-content thead th,.entry-meta,.entry-title,.entry-utility,#respond label,.navigation,.page-title,.pingback p,.reply,.widget-title,.wp-caption-text,input[type=submit]{font-family:"Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif}
+pre{font-family:"Courier 10 Pitch",Courier,monospace}
+code{font-family:Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace}
+body,input,textarea{color:#666;font-size:12px;line-height:18px}
+hr{background-color:#E7E7E7;border:0;height:1px;margin-bottom:18px;clear:both}
+p{margin-bottom:18px}
+ul{list-style:square;margin:0 0 18px 1.5em}
+ol{list-style:decimal;margin:0 0 18px 1.5em}
+ol ol{list-style:upper-alpha}
+ol ol ol{list-style:lower-roman}
+ol ol ol ol{list-style:lower-alpha}
+ul ul,ol ol,ul ol,ol ul{margin-bottom:0}
+dl{margin:0 0 24px}
+dt{font-weight:700}
+dd{margin-bottom:18px}
+strong{font-weight:700}
+cite,em,i{font-style:italic}
+big{font-size:131.25%}
+ins{background:#ffc;text-decoration:none}
+blockquote{font-style:italic;padding:0 3em}
+blockquote cite,blockquote em,blockquote i{font-style:normal}
+pre{background:#f7f7f7;color:#222;line-height:18px;margin-bottom:18px;padding:1.5em}
+abbr,acronym{border-bottom:1px dotted #666;cursor:help}
+sup,sub{height:0;line-height:1;vertical-align:baseline;position:relative}
+sup{bottom:1ex}
+sub{top:.5ex}
+input[type="text"],textarea{padding:2px;background:#f9f9f9;border:1px solid #ccc;box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);-moz-box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);-webkit-box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1)}
+table{border:1px solid #e7e7e7;text-align:left;margin:0 -1px 24px 0;width:100%}
+tr th,thead th{color:#888;font-size:12px;font-weight:700;line-height:18px;padding:9px 24px}
+tr td{border-top:1px solid #e7e7e7;padding:6px 24px}
+tr.odd td{background:#e7e7e7}
+.attachment img{max-width:900px}
+.txt-cnt{text-align: center;}
+.alignleft,img.alignleft{display:inline;float:left;margin-right:24px;margin-top:4px}
+.alignright,img.alignright{display:inline;float:right;margin-left:24px;margin-top:4px}
+.aligncenter,img.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto}
+.alignleft,img.alignright,img.aligncenter{margin-bottom:12px}
+.wp-caption{background:#f1f1f1;line-height:18px;text-align:center;margin-bottom:20px;padding:4px}
+.wp-caption img{margin:5px 5px 0}
+.wp-caption p.wp-caption-text{margin:5px;color:#888;font-size:12px}
+.wp-smiley{margin:0}
+#comments{clear:both}
+#comments .navigation{padding:0 0 18px}
+h3#comments-title,h3#reply-title{color:#000;font-weight:700;font-size:20px;margin-bottom:0}
+h3#comments-title{padding:24px 0}
+.commentlist{list-style:none;margin:0}
+.commentlist li.comment{border-bottom:1px solid #e7e7e7;line-height:24px;margin:0 0 24px;padding:0 0 0 56px;position:relative}
+.commentlist li:last-child{border-bottom:none;margin-bottom:0}
+#comments .comment-body ul,#comments .comment-body ol{margin-bottom:18px}
+#comments .comment-body p:last-child{margin-bottom:6px}
+#comments .comment-body blockquote p:last-child{margin-bottom:24px}
+.commentlist ol{list-style:decimal}
+.commentlist .avatar{position:absolute;top:4px;left:0}
+.comment-author cite{color:#000;font-style:normal;font-weight:700}
+.comment-author .says{font-style:italic}
+.comment-meta{font-size:12px;margin:0 0 18px}
+.comment-meta a:link,.comment-meta a:visited{color:#888;text-decoration:none}
+.comment-meta a:active,.comment-meta a:hover{color:#FF4B33}
+.reply{font-size:12px;padding:0 0 24px}
+.reply a,a.comment-edit-link{color:#888}
+.reply a:hover,a.comment-edit-link:hover{color:#FF4B33}
+.commentlist .children{list-style:none;margin:0}
+.commentlist .children li{border:none;margin:0}
+.nopassword,.nocomments{display:none}
+#comments .pingback{margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid #e7e7e7}
+.commentlist li.comment+li.pingback{margin-top:-6px}
+#comments .pingback p{color:#888;font-size:12px;line-height:18px;display:block;margin:0}
+#comments .pingback .url{font-style:italic;font-size:13px}
+input[type=submit]{color:#333}
+#respond{margin:24px 0;border-top:1px solid #e7e7e7;overflow:hidden;position:relative}
+#respond p{margin:0}
+#respond .comment-notes{margin-bottom:1em}
+.form-allowed-tags{line-height:1em}
+.children #respond{margin:0 48px 0 0}
+h3#reply-title{margin:18px 0}
+#comments-list #respond{margin:0 0 18px}
+#comments-list ul #respond{margin:0}
+#cancel-comment-reply-link{font-size:12px;line-height:18px;font-weight:400}
+#respond .required{color:#FF4B33;font-weight:700}
+#respond label{color:#888;font-size:12px}
+#respond input{margin:0 0 9px;width:98%}
+#respond textarea{width:98%}
+#respond .form-allowed-tags{color:#888;font-size:12px;line-height:18px}
+#respond .form-allowed-tags code{font-size:11px}
+#respond .form-submit{margin:12px 0}
+#respond .form-submit input{width:auto;font-size:14px}
+
+.inner_page .banner_section .banner img{height: 450px;    object-fit: cover;}
+.inner_page .banner_section .caption .heading:after{display: none;}
+/* Default pages styling */
+.postContentDefault 										{font-family:$primaryFont;color: #333333;padding: 30px 0;}
+.postContentDefault h1, .postContentDefault h2, 
+.postContentDefault h3, .postContentDefault h4, 
+.postContentDefault h5, .postContentDefault h6			{font-family:$primaryFont; margin:0; color: #333333; padding-bottom: 20px;}
+
+.postContentDefault h1									{font-size:32px; line-height:32px; padding:0 0 10px 0;}
+.postContentDefault h2									{font-size:24px; line-height:24px; padding:0 0 10px 0;}
+.postContentDefault h3									{font-size:19px; line-height:18.72px; padding:0 0 10px 0;}
+.postContentDefault h4									{font-size:16px; line-height:16px; padding:0 0 10px 0;}
+.postContentDefault h5									{font-size:14px; line-height:13.28px; padding:0 0 10px 0;}
+.postContentDefault h6									{font-size:11px; line-height:10.72px; padding:0 0 10px 0;}
+
+
+.postContentDefault .navigation.paging-navigation 		{width:100%;}
+.postContentDefault .navigation.paging-navigation h1		{display:none !important;}
+.postContentDefault .navigation.paging-navigation a		{font-size: 18px;line-height: 1px; color: #fff; background: #66899b;  padding: 4px 10px;  margin: 0 3px; }
+.postContentDefault .navigation.paging-navigation span	{font-size: 18px;line-height:20px; color:#fff; background: #b3d66f;  padding: 4px 10px;  margin: 0 3px; }
+.postContentDefault .wp-pagenavi span.pages 				{background:#40A35F; color:#fff;font-size: 18px;line-height: 20px;padding: 4px 10px;margin: 0 5px 0 0; }
+.postContentDefault .wp-pagenavi a						{font-size: 18px;line-height: 20px; color: #fff; background: #66899b;  padding: 4px 10px;  margin: 0 3px;}
+.postContentDefault .wp-pagenavi span.current 			{background:#b3d66f; color:#fff; font-size: 18px;line-height: 20px;padding: 4px 10px;margin: 0 5px 0 0;}
+
+.postContentDefault p 									{font-size:18px; padding:0 0 20px 0; margin:0; line-height:28px;font-family:$primaryFont;}
+.postContentDefault p b, .postContentDefault p strong 		{font-family:$primaryFont;}
+.postContentDefault p em 									{font-style:italic;font-family:$primaryFont;}
+.postContentDefault p a, .postContentDefault a			{color:#233588;font-family:$primaryFont;}
+
+
+.postContentDefault ul 									{list-style:disc inside;font-family:$primaryFont; margin:0 0 20px 0; padding:0; }
+.postContentDefault ul li									{font-size:18px; padding:0 0 5px 0; margin:0; line-height:20px; background:none; color:#333333;}
+.postContentDefault ul li a  								{font-size:18px;line-height:20px; color:#333333;}
+.postContentDefault ol									{list-style:decimal inside;margin:0 0 20px 0; padding:0; color:#333333;font-family:$primaryFont;}
+.postContentDefault ol li									{font-size:18px; padding:0 0 5px 0; margin:0; line-height:20px; color:#333333; font-weight:normal;}
+.postContentDefault ol li a 								{font-size:18px; line-height:20px; color:#66899b; font-weight:normal;}
+
+.postContentDefault p img, .postContentDefault img		{max-width:100%; width:auto; height:auto;}
+
+.postContentDefault blockquote 							{padding: 20px; background:#233588;margin:0 0 20px 0;}
+.postContentDefault blockquote p							{margin:0; padding:0; color: #ffffff;}
+.postContentDefault form label 								{display:block; font-size:14px; line-height:20px; margin:0 0 5px 0;}
+.postContentDefault form input[type="text"], 
+.postContentDefault form input[type="email"], 
+.postContentDefault form input[type="url"], 
+.postContentDefault form input[type="search"],
+.postContentDefault form input[type="number"], .search-field				{font-size:18px; width:100%; height:48px; line-height: 48px; padding:0 5px; border:1px solid #d1d1d1;margin:0 0 10px 0; background:#fff;-webkit-border-radius:0; -o-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; border-radius: 0;font-family:$primaryFont;}
+.postContentDefault form textarea							{border:1px solid #d1d1d1;margin:0 0 10px 0;  background:#fff;font-size:18px; width:100%;height:150px; padding:5px;}
+.postContentDefault input[type="submit"], .search-submit					{font-family: 'ProximaNova-Regular';cursor: pointer; font-size:18px;font-family:$primaryFont; border: 1px solid #20add0; background-color: #20add0;padding: 10px 20px;border-radius: 5px;color: #fefefe; }
+.postContentDefault input[type="submit"]:hover, .search-submit:hover { color: #ffffff;}
+
+.postContentDefault figure.wp-caption						{margin:0; background:none; }
+.postContentDefault figure.wp-caption img 					{margin:0 0 10px 0;}
+.postContentDefault figcaption.wp-caption-text 				{text-align:left; font-size:18px; line-height:20px;}
+
+.postContentDefault table 									{font-size:18px; line-height:20px; width:100%;}
+.postContentDefault table  th 								{font-weight:bold;}
+.postContentDefault table td, .postContentDefault table th	{border:1px solid;}
+.postContentDefault iframe 								{ max-width:100%; height:100%; min-height:250px;}
+
+
+.search-form span.screen-reader-text {display:none;}
+
+.postContentDefault  hr									{height:1px; background:#000; width: 100%; max-width: none; }
+
+@media screen and (min-width: 320px) and (max-width: 479px) { 
+.postContentDefault .navigation.paging-navigation a {text-align:center; margin:15px 0; display:block;}
+.postContentDefault .navigation.paging-navigation span {text-align:center; margin:0 auto; display:block;}
+}
+
+.navigation.pagination{display: block; width: 100%;}
+.navigation.pagination .page-numbers{margin:3px 2px;text-decoration:none;     display: inline-block; background: #a64ca6;padding: 5px 10px;color: #fff;}
+.navigation.pagination .page-numbers:hover{ background: #000;}

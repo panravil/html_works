@@ -1,0 +1,89 @@
+/* Color Palette */
+$white : #ffffff;
+$black : #000000;
+$transparent:transparent;
+$lt-brown:#b59e56;
+$dk-gray:#333333;
+$menu-color:#c7b15d;
+$red:#ce1002;
+$green:#01b500;
+$dt-black:#070709;
+$lt-gray:#f3f3f3;
+/*position*/
+$pos-r:relative;
+$pos-a:absolute;
+
+/*width*/         
+$full-width:100%;
+$half-width:50%;
+$margin:0 auto;
+
+/* Font family */
+$primaryFont:  'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', sans-serif;
+$secondaryFont:"Calibri-Light", sans-serif;
+    
+$weightnormal:normal;
+$weightLight:300;
+$weightRegular:400;
+$weightBold:700;
+$weightBlack:900;
+$boldFont:700;
+
+$value-0:0px;
+$value-5:5px;
+$value-7:7px;
+$value-10:10px;
+$value-12:12px;
+$value-13:13px;
+$value-14:14px;
+$value-15:15px;
+$value-16:16px;
+$value-18:18px;
+$value-20:20px;
+$value-22:20px;
+$value-25:25px;
+$value-26:26px;
+$value-26:28px;
+$value-30:30px;
+$value-32:32px;
+$value-34:34px;
+$value-36:36px;
+$value-40:40px;
+$value-45:45px;
+$value-50:50px;
+$value-60:60px;
+$value-70:70px;
+$value-80:80px;
+$value-90:90px;
+$value-95:95px;
+
+/*Display*/
+$in-block:inline-block;
+$block:block;
+$none:none;
+$normal:normal;
+
+/*text-transform*/
+$uppercase:uppercase;
+
+/*transition*/
+$sm-transition:1s ease all;
+$lg-transition: opacity 0.5s ease-in-out;
+
+/*align*/
+$center:center;
+$left:left;
+$right:right;
+$justify:justify;
+$ver-middle:middle;
+$ver-text-top:text-top;
+
+/*cover*/
+$img-cover:cover;
+
+/*overflow hidden*/
+$ovrflwhdn: hidden;
+
+/*Float*/
+$float-l: left;
+$float-r: right;

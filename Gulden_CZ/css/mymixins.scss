@@ -1,0 +1,113 @@
+@mixin resetUl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@mixin basicTransition {
+    transition: all 0.1s ease-in;
+}
+@mixin rounded($radius: 0.5em) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin cmd-btn{
+      font-size: 11px; color: $white;font-family:$secondaryFont; text-transform:$uppercase;
+      border-radius: 15px; padding: 5px 15px; 
+    }
+@mixin cmd-div{
+ background-color: $white;
+        border-radius: 5px;
+        padding: 25px 0;
+        box-shadow: 0px 0px 15px 1px rgba(230, 228, 228, 0.82);
+    margin-bottom: $value-30;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin rating-star{
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #eabe12;
+    text-decoration: none;
+}
+
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/**** MEDIA QUERY *****/
+@mixin large_desktop {
+  @media (min-width: 320px) and (max-width: 1660px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 320px) and (max-width: 1440px) {
+    @content;
+  }
+}
+@mixin desktop_small {
+  @media (min-width: 320px) and (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: 320px) and (max-width: 1145px) {
+    @content;
+  }
+}
+
+
+@mixin tablet {
+  @media (min-width: 320px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin ipad {
+  @media (min-width: 320px) and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin phone_wide {
+  @media (min-width: 300px) and (max-width: 767px) {
+    @content;
+  
+  }
+}
+@mixin phone_land {
+  @media (min-width: 320px) and (max-width: 659px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (min-width: 320px) and (max-width: 479px) {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}
